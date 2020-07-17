@@ -1,1 +1,0 @@
-# safe-city-kg
