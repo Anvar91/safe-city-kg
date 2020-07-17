@@ -1,0 +1,28 @@
+.house__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.house__content img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.house__title {
+  margin: 30px 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.house__subtitle {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.house__btn {
+  width: 60%;
+  height: 40px;
+  font-size: 15px;
+}

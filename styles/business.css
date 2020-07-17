@@ -1,0 +1,32 @@
+.business__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.business__content img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.business__title{
+    margin: 30px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.business__subtitle{
+    margin: 20px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.business__btn {
+    width: 70%;
+    height: 40px;
+    font-size: 15px;
+}
+

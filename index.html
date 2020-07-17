@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="...">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+    <title>Охранное агентство Безопасный город</title>
+</head>
+
+<body>
+    <header class="site-header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <nav class="header-nav">
+                    <a href="#about_us" class="scroll">О компании</a>
+                    <a href="./pages/stock.html">Акции</a>
+                    <a href="./pages/privacy.html">Конфиденциальность</a>
+                    <button class="contact-btn">Контакты</button>
+                </nav>
+                <div class="phone-container">
+                    <div class=phone>
+                        <img class="phone-icon" src="./img/Phone-call_icon-icons.com_51956.svg"
+                            alt="phone icon"><a href="tel:+996555927880">+996 (555) 92-78-80</a>
+                        </div>
+                            <a href="https://wa.me/996555927880" target="blank">
+                                <button class="callback style-btn" type="button">Написать в Whatsapp</button>
+                            </a>
+                </div>
+                <div class="language">Язык</div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light header-navbar">
+            <div class="container">
+                <div class="logo"><a href="./index.html"><img src="./img/лого_охр_аг_БГ-removebg-preview.png"
+                            alt="Logo"></a></div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/prem-alarm.html">
+                                <img src="./img/navbar-icons/premium.svg" alt="premium">
+                                Сигнализация Премиум класса</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/appartment-security.html">
+                                <img src="./img/navbar-icons/appartment.svg" alt="flat">Охрана квартиры</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/house-security.html">
+                                <img src="./img/navbar-icons/house.svg" alt="house">Охрана дома</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/business.html">
+                                <img src="./img/navbar-icons/business.svg" alt="business">Охрана бизнеса</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/safesignal.html">
+                                <img src="./img/navbar-icons/alarm.svg" alt="alarm">Охранная сигнализация</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/fire-alarm.html">
+                                <img src="./img/navbar-icons/fire.svg" alt="fire-alarm">Пожарная сигнализация</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/video-monitoring.html">
+                                <img src="./img/navbar-icons/camera.svg" alt="camera">Видеонаблюдение</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/intercom.html">
+                                <img src="./img/navbar-icons/intercom.svg" alt="intercom">Домофон</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <section class="slider">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="background">
+                            <div class="first-slide">
+                                <div class="container">
+                                    <div class="first-slide__content">
+                                        <h1 class="slide__title">Охрана дома и <br> квартиры</h1>
+                                        <button class="slide__btn style-btn" type="button" data-toggle="modal"
+                                            data-target="#exampleModal">Оставить заявку</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="second-slide">
+                            <div class="container">
+                                <div class="second-slide__content">
+                                    <h1 class="slide__title">Охрана бизнеса</h1>
+                                    <button class="slide__btn style-btn" type="button" data-toggle="modal"
+                                        data-target="#exampleModal">Оставить заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="third-slide">
+                            <div class="container">
+                                <div class="third-slide__content">
+                                    <h1 class="slide__title">
+                                        <p>Видеонаблюдение</p>
+                                        <p>Охранная сигнализация</p>
+                                        <p>Пожарная сигнализация</p>
+                                        <p>Домофоны</h1></p>
+                                    <button class="slide__btn style-btn" type="button" data-toggle="modal"
+                                        data-target="#exampleModal">Оставить заявку</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="about-info">
+            <div class="container-fluid">
+                <div class="row pb-5">
+                    <div class="col-8 d-block mx-auto">
+                        <div class="row mt-5">
+                            <div class="col-12 text-center">
+                                <p class="profit">Почему с нами выгодно</p>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5 text-center">
+                            <div class="col-md-4 mb-5">
+                                <div class="prof-img">
+                                    <img src="./img/free-examples.jpg" alt="example">
+                                </div>
+                                <p>Something</p>
+                            </div>
+                            <div class="col-md-4 mb-5 d-block mx-auto">
+                                <div class="prof-img">
+                                    <img src="./img/free-examples.jpg" alt="example">
+                                </div>
+                                <p>Something</p>
+                            </div>
+                            <div class="col-md-4 mb-5 d-block mx-auto">
+                                <div class="prof-img">
+                                    <img src="./img/free-examples.jpg" alt="example">
+                                </div>
+                                <p>Something</p>
+                            </div>
+
+                            <div class="col-12">
+                                <button class="slide__btn1 style-btn mt-5 mx-auto" type="button" data-toggle="modal"
+                                    data-target="#exampleModal">Оставить заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="order">
+                <div class="row pb-5">
+                    <div class="col-8 d-block mx-auto">
+                        <div class="row mt-5">
+                            <div class="col-12 text-center">
+                                <p class="profit">Как заказать</p>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5 text-center">
+                            <div class="col-md-4 mb-5">
+                                <div class="prof-img">
+                                    <img src="./img/free-examples.jpg" alt="example">
+                                </div>
+                                <p>Something</p>
+                            </div>
+                            <div class="col-md-4 mb-5 d-block mx-auto">
+                                <div class="prof-img">
+                                    <img src="./img/free-examples.jpg" alt="example">
+                                </div>
+                                <p>Something</p>
+                            </div>
+                            <div class="col-md-4 mb-5 d-block mx-auto">
+                                <div class="prof-img">
+                                    <img src="./img/free-examples.jpg" alt="example">
+                                </div>
+                                <p>Something</p>
+                            </div>
+
+                            <div class="col-12">
+                                <button class="slide__btn1 style-btn mt-5 mx-auto" type="button" data-toggle="modal"
+                                    data-target="#exampleModal">Оставить заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row pb-5">
+                    <div class="col-10 mx-auto">
+                        <div class="row mt-5">
+                            <div class="col-12 text-center">
+                                <p class="profit">Наши партнёры</p>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5 text-center">
+                            <div class="col-md-6 mb-5">
+                                <div class="trust-img">
+                                    <img src="./img/our partners/cnord.jpg" alt="cnord">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5">
+                                <div class="trust-img">
+                                    <img src="./img/our partners/pima.png" alt="pima">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5">
+                                <div class="trust-img">
+                                    <img src="./img/our partners/jablotron.jpg" alt="jablotron">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-5">
+                                <div class="trust-img">
+                                    <img src="./img/our partners/rubezh.jpg" alt="rubezh">
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <button class="slide__btn1 style-btn mt-5 mx-auto" type="button" data-toggle="modal"
+                                    data-target="#exampleModal">Оставить заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="recommend">
+                <div class="row pb-5">
+                    <div class="col-8 d-block mx-auto">
+                        <div class="row mt-5">
+                            <div class="col-12 text-center">
+                                <p class="profit">Наши награды</p>
+                            </div>
+                        </div>
+
+                        <div id="carouselExampleIndicator" class="carousel slide mt-3" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active text-center">
+                                    <div class="carousel__img">
+                                        <a href href="./img/certificate and thanks/sertif.jpg">
+                                            <img src="./img/certificate and thanks/sertif.jpg" alt="First slide">
+                                        </a>
+                                    </div>
+                                </div>
+                                
+                                <div class="carousel-item text-center">
+                                    <div class="blag__img">
+                                        <a href="./img/certificate and thanks/blag.jpg" target="blank">
+                                            <img src="./img/certificate and thanks/blag.jpg" alt="Eighth">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicator" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicator" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="slide__btn1 style-btn mt-5 mx-auto" type="button" data-toggle="modal"
+                                data-target="#exampleModal">Оставить заявку</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="about_us">
+                <div class="row">
+                    <div class="col-8 d-block mx-auto">
+                        <div class="row mt-5">
+                            <div class="col-12 text-center">
+                                <p class="profit">О нас</p>
+                                <img class="logo mt-3" src="./img/лого_охр_аг_БГ-removebg-preview.png" alt="">
+                            </div>
+
+                            <div class="row mt-5">
+                                <div class="col-md-4 mb-5">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="prof-img">
+                                                <img src="./img/about us/team.svg" alt="example">
+                                            </div>
+                                        </div>
+                                        <h4>Наша команда</h4>
+                                        <p class="card-description">У нас профессиональная команда специалистов, имеющих
+                                            опыт работы от 5 до 12 лет</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-5 d-block mx-auto">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="prof-img">
+                                                <img src="./img/about us/soldier.svg" alt="example">
+                                            </div>
+                                        </div>
+                                        <h4>Работа ГБР</h4>
+                                        <p class="card-description">Прибытие Группы Быстрого Реагирования (ГБР) на
+                                            охраняемый объект по тревоге происходит за минимально возможное время</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-5 d-block mx-auto">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="prof-img">
+                                                <img src="./img/about us/control-panel.svg" alt="example">
+                                            </div>
+                                        </div>
+                                        <h4>Наше оборудование</h4>
+                                        <p class="card-description">Устанавливаем современное и качественное
+                                            оборудование известных брендов, которое позволяет клиенту контролировать
+                                            свой объект круглосуточно</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-5">
+                                <div class="col-md-4 mb-5">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="prof-img">
+                                                <img src="./img/about us/system.svg" alt="example">
+                                            </div>
+                                        </div>
+                                        <h4>Установка</h4>
+                                        <p class="card-description">Устанавливаем и проектируем системы безопасности
+                                            различного уровня сложности</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-5 d-block mx-auto">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="prof-img">
+                                                <img src="./img/about us/check.svg" alt="example">
+                                            </div>
+                                        </div>
+                                        <h4>Гарантии</h4>
+                                        <p class="card-description">Несем гарантию и проводим обслуживание,
+                                            установленного оборудования</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-5 d-block mx-auto">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="prof-img">
+                                                <img src="./img/about us/money.svg" alt="example">
+                                            </div>
+                                        </div>
+                                        <h4>Тарифы</h4>
+                                        <p class="card-description">Предлагаем разнообразные тарифы, среди которых
+                                            обязательно найдутся приемлемые для вас!</p>
+                                    </div>
+                                </div>
+                                <button class="slide__btn1 style-btn mb-5 mx-auto" type="button" data-toggle="modal"
+                                    data-target="#exampleModal">Оставить заявку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="media-review">
+                <div class="container">
+                    <div id="carouselExampleControl" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="review-body">
+                                    <div class="review-border">
+                                        <h5 class="review-title">Media heading 2</h5>
+                                        <p class="reviw-message">Cras sit amet nibh libero, in gravida nulla. Nulla
+                                            vel
+                                            metus scelerisque ante
+                                            sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
+                                            viverra
+                                            turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                                            lacinia
+                                            congue
+                                            felis in faucibus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="review-body">
+                                    <div class="review-border">
+                                        <h5 class="review-title">Media heading 2</h5>
+                                        <p class="reviw-message">Cras sit amet nibh libero, in gravida nulla. Nulla
+                                            vel
+                                            metus scelerisque ante
+                                            sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
+                                            viverra
+                                            turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                                            lacinia
+                                            congue
+                                            felis in faucibus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="review-body">
+                                    <div class="review-border">
+                                        <h5 class="review-title">Media heading 2</h5>
+                                        <p class="review-message">Cras sit amet nibh libero, in gravida nulla. Nulla
+                                            vel
+                                            metus scelerisque ante
+                                            sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
+                                            viverra
+                                            turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+                                            lacinia
+                                            congue
+                                            felis in faucibus.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControl" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControl" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <button class="style-btn review-btn" data-toggle="modal" data-target="#exampleModalCenter">Оставить
+                    отзыв</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-line"></div>
+            <div class="footer-contact">
+                <div class="phone-container">
+                    <img class="phone-icon" src="./img/Phone-call_icon-icons.com_51956.svg" alt="phone icon">
+                    <div class=phone><a href="tel:+996555927880">+996 (555) 92-78-80</a></div>
+                </div>
+                <div class="footer-buttons">
+                    <button class="callback style-btn" type="button" data-toggle="modal"
+                        data-target="#exampleModal">Заказать звонок</button>
+                </div>
+            </div>
+            <div class="footer-info">
+                <div class="footer__address">
+                    <p>Адресс: город Бишкек, ул. Горького, 142</p>
+                    <p>Email: safe.kg@mail.ru</p>
+                    <p>Skype: anna.mdn</p>
+                </div>
+                <div class="footer__phones">
+                    <p>тел: +996(312) 90-88-07</p>
+                    <p>факс: +996(312) 90-11-20</p>
+                    <p>моб: +996(707) 12-00-40</p>
+                    <p>моб: +996(555) 92-78-80</p>
+                </div>
+            </div>
+            <div class="footer-social">
+                <div class="social-icons">
+                    <div class="social">
+                        <a href="https://www.instagram.com/p/B874qyknKUS/?igshid=7ftjavs1ez0w" target="blank"><img
+                                src="./img/social-icons/instagram.svg" alt="instagram" rel='noreferrer noopener'></a>
+                    </div>
+                    <div class="social">
+                        <a href="https://facebook.com/ohrana.bishkek" target="blank"><img
+                                src="./img/social-icons/facebook.svg" alt="facebook" rel='noreferrer noopener'></a>
+                    </div>
+                    <div class="social">
+                        <a href="https://wa.me/996555927880" target="blank"><img src="./img/social-icons/whatsapp.svg"
+                                alt="whatsapp" rel='noreferrer noopener'></a>
+                    </div>
+                    <div class="social">
+                        <a href="https://t.me/safecity312" target="blank"><img src="./img/social-icons/telegram.svg"
+                                alt="telegram" rel='noreferrer noopener'></a>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.youtube.com/channel/UCpLX262soPyff7YgJFU6shA" target="_blank"
+                            rel='noreferrer noopener'><img src="./img/social-icons/youtube.svg" alt="youtube"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="map"><a class="scroll-map" href="#header">Карта сайта</a> ©2020 <br> ОсОО "Безопасный город"</div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="form-title" id="exampleModalLabel">Форма заявки</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="modal-form">
+                        <label for="form-name"></label>
+                        <input type="text" class="form-control" id="form-name" placeholder="Ваше имя" name="name">
+                        <label for="form-number"></label>
+                        <input type="number" class="form-control" id="form-number" placeholder="Телефон" name="phone">
+                        <label for="form-mail"></label>
+                        <input type="email" class="form-control" id="form-mail" placeholder="Эл.почта" name="mail">
+                        <label for="form-selector" style="margin-top: 20px">Выберите услугу:</label>
+                        <select class="form-control" id="form-selector">
+                            <option>Охрана квартиры</option>
+                            <option>Охрана дома</option>
+                            <option>Охрана бизнеса</option>
+                            <option>Охранная сигнализация</option>
+                            <option>Пожарная сигнализация</option>
+                            <option>Видеонаблюдение</option>
+                            <option>Домофон</option>
+                        </select>
+                        <button type="submit" class="btn order-btn" data-toggle="modal" data-target="#exampleModalLong">
+                            Отправить
+                        </button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p class="oferta">Нажимая "Отправить" вы принимаете <a href="./pages/privacy.html">Условия обработки
+                            персональных
+                            данных</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Оставить отзыв</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="reviewInput1"></label>
+                            <input type="text" class="form-control reviewForm" id="reviewInput1" placeholder="Ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="reviewInput2"></label>
+                            <input type="text" class="form-control reviewForm" id="reviewInput2"
+                                placeholder="Ваша компания">
+                        </div>
+                        <div class="form-group">
+                            <label for="reviewTextarea"></label>
+                            <textarea class="form-control reviewForm" id="reviewTextarea" rows="3"
+                                placeholder="Оставить отзыв"></textarea>
+                        </div>
+                        <button type="submit" class="btn send-review-btn style-btn"
+                            style="width:100%">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="./dist/main.js"></script>
+</body>
+
+</html>

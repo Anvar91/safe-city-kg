@@ -1,0 +1,53 @@
+.fire-alarm__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fire-alarm__content img {
+    width: 50%;
+    border-radius: 15px;
+}
+
+
+.fire-alarm__title {
+    margin: 30px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fire__btn{
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    font-size: 15px;
+    display: block;
+}
+
+.fire-alarm__info {
+    display: block;
+    margin: 0px 0px 30px 0px;
+}
+
+.fire-alarm__ul {
+    margin-top: 75px;
+}
+
+.fire-alarm__btn {
+    margin-top: 107px;
+    width: 86%;
+}
+
+@media (max-width: 992px) {
+    .fire-alarm__info {
+        display: block;
+    }
+
+    .fire-alarm__content img {
+        width: 100%;
+        border-radius: 15px;
+        margin: 20px 0;
+    }
+
+}
